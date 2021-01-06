@@ -26,3 +26,5 @@ Feature: Timeline: Publication d'un nouveau statut
       #Etape 3 : verification de la création d'un statut
 
     Then Vérifier que le statut est publié
+
+    #4 :Adding a comment
