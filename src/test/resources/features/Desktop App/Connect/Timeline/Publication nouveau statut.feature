@@ -31,6 +31,6 @@ Feature: Timeline: Publication d'un nouveau statut
     Then Vérifier que le statut est publié
     Then Vérifier que le statut est publié
 
-
+    And L'utilisateur cherrypick
 
 
