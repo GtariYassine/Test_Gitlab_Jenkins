@@ -18,6 +18,9 @@ Feature: Timeline: Publication d'un nouveau statut
     Given le navigateur est ouvert et la page d'acceuil est affichée
     And l'utilisateur "admin" est connecté
 
+    And l utilisateur clique sur "bouton_publier_statut"
+
+
       #Etape 2 : Creation statut
 
     And l utilisateur saisit "Test automatisé publication statut" dans le champs "champ_statut"
@@ -29,4 +32,5 @@ Feature: Timeline: Publication d'un nouveau statut
     Then Vérifier que le statut est publié
 
 
-    #4 :Adding a comment
+
+
